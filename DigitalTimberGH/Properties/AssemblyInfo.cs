@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DigitalTimberGH")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Grasshopper interface to the Digital Timber research library.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Zaha Hadid Architects / Axis Technology")]
 [assembly: AssemblyProduct("DigitalTimberGH")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]

@@ -32,9 +32,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SpatialSlur">
+      <HintPath>..\..\..\..\AppData\Roaming\Grasshopper\Libraries\SpatialSlur 0_2_4\Binaries\Rhino\SpatialSlur.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AppData\Roaming\Grasshopper\Libraries\SpatialSlur 0_2_4\Binaries\Rhino\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -56,9 +63,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DigitalTimberGHComponent.cs" />
-    <Compile Include="DigitalTimberGHInfo.cs" />
+    <Compile Include="Data\CreateElement.cs" />
+    <Compile Include="Properties\DigitalTimberGHInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Costs\" />
+    <Folder Include="Fabrication\" />
+    <Folder Include="Graph\" />
+    <Folder Include="Structure\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalTimber\DigitalTimber.csproj">
+      <Project>{cea93521-04e1-41e6-991b-e8ccf9b9e066}</Project>
+      <Name>DigitalTimber</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
