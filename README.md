@@ -16,7 +16,7 @@ PhD Code Researcher
 Zaha Hadid Architects  
 
 Shajay Bhooshan  
-Computational Design Group (Code) 
+Computational Design Group (Code)  
 Zaha Hadid Architects  
 
 Conor Black  
