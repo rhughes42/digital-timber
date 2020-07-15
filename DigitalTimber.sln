@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTimber", "DigitalTimber\DigitalTimber.csproj", "{CEA93521-04E1-41E6-991B-E8CCF9B9E066}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTimberGH", "DigitalTimberGH\DigitalTimberGH.csproj", "{B1BFA7F5-2483-4539-9A8C-78D743AFEFD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CEA93521-04E1-41E6-991B-E8CCF9B9E066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA93521-04E1-41E6-991B-E8CCF9B9E066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA93521-04E1-41E6-991B-E8CCF9B9E066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BFA7F5-2483-4539-9A8C-78D743AFEFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BFA7F5-2483-4539-9A8C-78D743AFEFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BFA7F5-2483-4539-9A8C-78D743AFEFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BFA7F5-2483-4539-9A8C-78D743AFEFD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
