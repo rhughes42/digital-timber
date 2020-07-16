@@ -1,4 +1,4 @@
-# DigitalTimber
+# Digital Timber
 
 Repository for the Digital Timber research project.
 
